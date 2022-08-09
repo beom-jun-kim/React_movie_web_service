@@ -1,0 +1,52 @@
+.loader {
+    color: darkorange;
+    font-size: 3rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.movie__box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.title {
+    margin-top: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: darkorange;
+}
+
+.up__load {
+    display: block;
+    margin-top: 20px;
+}
+
+.summary {
+    line-height: 23px;
+    font-size: 13px;
+    letter-spacing: .5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 500px;
+    height: 95px;
+}
+
+.movie__genres {
+    margin: 20px 0;
+}
+
+.movie__genres li {
+    font-size: 1.2rem;
+}
+
+.movie__genres li:nth-child(n+2) {
+    display: none;
+}

@@ -1,0 +1,49 @@
+.movie {
+    width: 20%;
+    padding: 1rem;
+}
+
+.movie__img {
+    width: 100%;
+}
+
+.movie__title {
+    margin-top: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: darkorange;
+}
+
+.summary {
+    margin: 20px 0;
+    line-height: 20px;
+    font-size: 13px;
+    letter-spacing: .5px;
+}
+
+.movie__genres li {
+    font-size: 1.2rem;
+}
+
+.movie__genres li:nth-child(n+2) {
+    display: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .movie {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .movie {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .movie {
+        width: 100%;
+    }
+}
